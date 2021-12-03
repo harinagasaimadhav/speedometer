@@ -1,0 +1,85 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 340px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-style: italic;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 52px;
+  }
+}
+
+.image {
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    max-width: 70%;
+  }
+}
+
+.speedometer-reading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.button-container {
+  margin: 15px 0;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 10px 15px;
+  margin: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button1 {
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.button2 {
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+  color: #94a3b8;
+}
